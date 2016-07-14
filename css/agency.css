@@ -46,6 +46,34 @@ h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
+.grad1 {
+    background: red; 
+    background: -webkit-linear-gradient(red, yellow); 
+    background: -o-linear-gradient(red, yellow); 
+    background: -moz-linear-gradient(red, yellow); 
+    background: linear-gradient(red, yellow); 
+}
+.grad2 {
+    background: yellow; 
+    background: -webkit-linear-gradient(yellow, red); 
+    background: -o-linear-gradient(yellow, red); 
+    background: -moz-linear-gradient(yellow, red); 
+    background: linear-gradient(yellow, red); 
+}
+.grad3 {
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, red, yellow); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, red, yellow); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, red, yellow); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, red, yellow); /* Standard syntax */
+}
+.ltor {
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, red , yellow); /* Standard syntax */
+}
 .img-centered {
   margin: 0 auto;
 }
