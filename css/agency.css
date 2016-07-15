@@ -12,6 +12,10 @@ body {
 }
 .text-primary {
   color: #fed136;
+  }
+.bg-primary {
+background-color: purple;
+color: white;
 }
 p {
   font-size: 14px;
