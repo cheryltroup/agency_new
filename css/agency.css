@@ -7,6 +7,14 @@ body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+hr {
+  border-color: orange;
+  border-width: 3px;
+  max-width: 50px;
+}
+hr.light {
+  border-color: black;
+}
 .text-muted {
   color: #777777;
 }
@@ -50,6 +58,7 @@ h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
+
 .grad1 {
     background: red; 
     background: -webkit-linear-gradient(red, yellow); 
@@ -179,7 +188,7 @@ fieldset[disabled] .btn-xl.active {
   background-color: white;
 }
 .navbar-custom {
-  background-color: #222222;
+  background-color: #222;
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
@@ -250,7 +259,7 @@ fieldset[disabled] .btn-xl.active {
 }
 @media (min-width: 768px) {
   .navbar-custom.affix {
-    background-color: #222222;
+    background-color: purple;
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
