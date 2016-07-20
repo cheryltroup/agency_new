@@ -4,13 +4,14 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
+  height:100vh;
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 hr {
   border-color: orange;
   border-width: 3px;
-  max-width: 50px;
+  max-width: 3px;
 }
 hr.light {
   border-color: black;
@@ -268,6 +269,7 @@ fieldset[disabled] .btn-xl.active {
 }
 header {
   background-image: url('../img/angie_4.jpg');
+  height: 100vh;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -595,8 +597,8 @@ aside.clients img {
   margin: 50px auto;
 }
 section#contact {
-  background-color: #222222;
-  background-image: url('../img/map-image.png');
+  background-color: orange;
+  height:100vh;
   background-position: center;
   background-repeat: no-repeat;
 }
