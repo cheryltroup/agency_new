@@ -41,7 +41,7 @@ a.active {
   outline: none;
 }
 a {
-  color: #fed136;
+  color: purple;
 }
 a:hover,
 a:focus,
@@ -62,13 +62,15 @@ h6 {
 
 .grad1 {
     background: red; 
+    color: orange;
     background: -webkit-linear-gradient(red, yellow); 
     background: -o-linear-gradient(red, yellow); 
     background: -moz-linear-gradient(red, yellow); 
     background: linear-gradient(red, yellow); 
 }
 .grad2 {
-    background: yellow; 
+    background: yellow;
+    color: purple; 
     background: -webkit-linear-gradient(yellow, red); 
     background: -o-linear-gradient(yellow, red); 
     background: -moz-linear-gradient(yellow, red); 
